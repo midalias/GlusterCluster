@@ -1,0 +1,12 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+  "parameters": {
+    "sshPublicKey": {
+      "value": "ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEAhAs8DxWvwpiNB0fzsq/Ua9dHazKE3+/rQ1b4NaNbb4gABurei56lEeuOi2NyxxrWg70VGk13NenuYzlZJ9Yvae4E0kIvW3xYmvKByEvKB3kBxanwYZbCE3j1mSB5645ikRQnkDat+tngog+t0aTdGVCpzsE1fbRDUPEUT25f6aPm50wITPsEh+NJsyCcxUk4WR4Uvipo+E8ZRlIB+0x6bXWuHSuPxMMnHA4PPlBWH6jVZBbugUj+lDi0cAt+rpOlK5Ngbb79RsVC4qgMm/wWinOp1242C3IkY2E3iFi+R8VqE2OtFUutcMYEQPBOCmKyp5YIDHkC3a+40InMIiGatQ== azureuser@linuxvm"
+    },
+    "projectName": {
+      "value": "DockerGFSDemo"
+    }
+  }
+}
